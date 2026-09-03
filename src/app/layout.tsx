@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     "Ishaan's college application HQ — 18 schools, one map, zero spreadsheet tabs.",
 };
 
-const themeScript = `(function(){try{var t=localStorage.getItem("ch-theme");if(t!=="dark"&&t!=="light"){t=window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}document.documentElement.dataset.theme=t;document.documentElement.style.colorScheme=t}catch(e){}})();`;
+const themeScript = `(function(){try{var t=localStorage.getItem("ch-theme");if(t!=="dark"&&t!=="light"){t="dark"}document.documentElement.dataset.theme=t;document.documentElement.style.colorScheme=t}catch(e){}})();`;
 
 export default function RootLayout({
   children,

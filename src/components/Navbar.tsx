@@ -8,6 +8,7 @@ import { useTheme } from "./theme";
 const LINKS = [
   { href: "/", label: "the hub" },
   { href: "/breakdown", label: "full breakdown" },
+  { href: "/checklist", label: "checklist" },
   { href: "https://docs.google.com/document/d/1gTNeGaZBt--tmwdDIgGFz6dZwJJ6t5ou_fchRfg7pEw/edit?tab=t.m8n6vnbgy2xg", label: "Essays" },
   { href: "https://docs.google.com/document/d/1Tljt0V-7F712RfxaCD7DdLM7Y1OFwJJ86CQMxXDGF4o/edit?tab=t.0#heading=h.30j0zll", label: "Activities" },
   { href: "https://www.customcollegeplan.com/signin", label: "CPE dashboard"}

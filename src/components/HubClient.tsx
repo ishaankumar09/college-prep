@@ -5,6 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { ACTIVE, CUT, LEVELS, type Level } from "@/data/colleges";
 import CollegeCard from "./CollegeCard";
+import UpNext from "./UpNext";
 import type { Selection } from "./CollegeMap";
 
 const CollegeMap = dynamic(() => import("./CollegeMap"), {
@@ -100,6 +101,7 @@ export default function HubClient() {
         </div>
 
         <div className="map-col">
+          <UpNext />
           <CollegeMap
             colleges={ACTIVE}
             selected={sel}
